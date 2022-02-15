@@ -8,7 +8,7 @@ Obs.: o resultado é consumido através de uma API Fake
 
 ## Linguagens
 
-- HTML (JSX)
+- HTML
 - CSS
 - JavaScrip
 - ReactJS
