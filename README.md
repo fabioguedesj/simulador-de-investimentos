@@ -32,7 +32,7 @@ Validação de formulário
 
 Resultado da simulação
 <p align='center'>
-    <img alt='simulador nao preenchido' src='./preview/simulador-resultado.jpg'/>
+    <img alt='simulador nao preenchido' src='./preview/simulador-final.jpg'/>
 </p>
 
 ## Como usar
