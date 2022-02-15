@@ -1,0 +1,11 @@
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1050px) {
+  .sections{
+    justify-content: center;
+  }
+}
+

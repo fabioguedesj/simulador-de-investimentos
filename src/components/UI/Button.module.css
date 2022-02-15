@@ -1,0 +1,94 @@
+.btn {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.btn:disabled,
+.btn:disabled:hover {
+  background-color: #969696;
+  cursor: default;
+  color: inherit;
+}
+
+.btn--transparent {
+  background-color: transparent;
+}
+
+.btn--orange {
+  border: none;
+  background-color: #ed8e53;
+}
+
+.btn--orange:hover {
+  background-color: #eb7933;
+}
+
+.border--all {
+  border-radius: 0.8rem;
+}
+
+.border--left {
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+
+.border--right {
+  border-radius: 0rem 0.8rem 0.8rem 0;
+}
+
+.border--none {
+  border-radius: 0;
+}
+
+.size--small,
+.size--medium {
+  padding: 1.3rem 0;
+  font-size: 1.2rem;
+}
+
+.size--small {
+  width: 6.8rem;
+}
+
+.size--medium {
+  width: 10rem;
+}
+
+.size--hight {
+  width: 20rem;
+  padding: 1.4rem 0;
+}
+
+.font--bold {
+  font-weight: 800;
+}
+
+.active{
+  background-color: #ED8E53;
+  color: #fff;
+}
+
+.active::before{
+  content: '\2713';
+  margin-right: .3rem;
+}
+
+@media only screen and (max-width: 545px){
+  .size--small,
+  .size--medium {
+    padding: 1.3rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .size--small {
+    width: 6rem;
+  }
+  
+  .size--medium {
+    width: 9rem;
+  }
+  
+  .size--hight {
+    width: 18rem;
+    padding: 1.4rem 0;
+  }
+}

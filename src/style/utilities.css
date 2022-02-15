@@ -1,0 +1,23 @@
+.text-center{
+    text-align: center;
+}
+
+.display-block{
+    display: block;
+}
+
+.margin-bottom-small{
+    margin-bottom: 1rem;
+}
+
+.margin-bottom-medium{
+    margin-bottom: 2rem;
+}
+
+.margin-bottom-hight{
+    margin-bottom: 3rem;
+}
+
+.margin-top-small{
+    margin-top: 1rem;
+}

@@ -1,0 +1,19 @@
+.bar-container{
+   text-align: center;
+   width: fit-content;
+}
+
+.sem-aporte {
+  position: relative;
+  width: 3.5rem;
+  height: 5rem;
+  background-color: black;
+}
+
+.com-aporte {
+  position: relative;
+  width: 3.5rem;
+  height: 20rem;
+  margin-bottom: 0.3rem;
+  background-color: #ED8E53;
+}

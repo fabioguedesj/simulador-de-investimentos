@@ -1,0 +1,19 @@
+.section-resultados {
+  min-width: 45rem;
+  flex-grow: 5;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.results-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 3rem 5rem;
+}
+
+@media only screen and (max-width: 590px) {
+  .section-resultados{
+    min-width: 0;
+  }
+}
+

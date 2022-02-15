@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Header from './components/Components/Header';
+import SectionResultados from './components/Layout/SectionResultados';
+import SectionSimulador from './components/Layout/SectionSimulador';
+import Card from './components/UI/Card';
 
-function App() {
+import classes from './App.module.css';
+
+const App = () => {
+  const [finalData, setFinalData] = useState();
+
+  const getUserFinalData = (data) => setFinalData(data);
+
+  const isShown = finalData ? true : false;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Card>
+      <Header />
+      <div className={classes.sections}>
+        <SectionSimulador getUserFinalData={getUserFinalData} />
+        {isShown && <SectionResultados finalData={finalData}/>}
+      </div>
+    </Card>
   );
-}
+};
 
 export default App;
